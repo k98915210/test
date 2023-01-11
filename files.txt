@@ -1,0 +1,11 @@
+git add *file*
+
+git commit -m “message about the commit”
+
+git status
+
+git ls-files
+
+git rm --cached -r file
+
+git restore --staged file
