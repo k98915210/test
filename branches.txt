@@ -10,3 +10,12 @@ git checkout -b new
 
 git diff *branch1*..*branch2* -- *file*
 (to make branch1 to be branch2)
+
+git merge *branch*
+(merge branch to current branch)
+
+git merge -s octopus branch1 branch2 branch3 branchN
+(It is primarily used for bundling similar feature branch heads together.)
+
+git merge -s ours branch1 branch2 branchN
+(It is intended to be used to combine history of similar feature branches.)

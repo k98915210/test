@@ -1,4 +1,5 @@
-git add *file*
+git add *file* 
+(add . to add all)
 
 git commit -m “message about the commit”
 
