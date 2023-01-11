@@ -7,3 +7,6 @@ git branch -m *new branch name*
 git checkout 
 
 git checkout -b new
+
+git diff *branch1*..*branch2* -- *file*
+(to make branch1 to be branch2)
