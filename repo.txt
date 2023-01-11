@@ -1,0 +1,8 @@
+git init 
+
+cd *new directory*
+git clone *repo url* 
+
+git mv 
+*./old_directory/old_file.ext *
+*./new_directory/new_file.ext*

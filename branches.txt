@@ -1,0 +1,9 @@
+git branch 
+
+git branch *new branch name*
+
+git branch -m *new branch name*
+
+git checkout 
+
+git checkout -b new
