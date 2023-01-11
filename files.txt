@@ -5,8 +5,18 @@ git commit -m “message about the commit”
 
 git status
 
+git log
+
 git ls-files
 
 git rm --cached -r file
 
 git restore --staged file
+
+git clean
+
+git reset *file(optional)*
+(unstaged everything / the file)
+
+git reset HEAD~1
+(go back to the last 1 commit)
