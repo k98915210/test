@@ -9,3 +9,12 @@ git commit -m “message about the commit”
 
 git status
 --> check current files in stage
+
+git rm --cached -r file
+-- or --
+git restore --staged file
+
+--> delete file from stage
+
+---------------------------------------------------------
+
