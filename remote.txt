@@ -1,0 +1,23 @@
+----Create Remote Repo on Github-----
+
+git branch -M *main*
+(name the branch to *main*)
+
+git remote add origin https://github.com/*k98915210/test.git*
+
+git push -u origin *main*
+
+
+------Authenticate a User-------
+
+git config --global user.name "HoiChun"
+
+git config --global user.email "kannelson716@gmail.com"
+
+
+------Pull / Push Repo-------
+
+git pull origin *main*
+(get change from remote repo)
+
+git push
